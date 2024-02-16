@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.app{
+  height:100vh;
+  background:url('./background.png');
+  background-size:cover;
+  height:100vh;
+  width:100vw;
+  overflow:scroll;
+}
+.messages{
+  display:flex;
+  flex-direction:column;
+  overflow-y:scroll;
+  scrollbar-width:none;
+}
+.scrollbar{
+  scrollbar-width:none;
+}
+
+@media (min-width:0px) and (max-width:767px){
+.chats{
+  display:none;
+}
+}
